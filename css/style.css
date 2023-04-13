@@ -1046,7 +1046,7 @@ Pricing
 }
 
 .section-pricing {
-  background: url("../images/banner/speakers-bg-black.jpg") no-repeat;
+  background: url("../images/banner-speakers-bg-black.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -1343,7 +1343,7 @@ Blog
 footer
 -------------------------------*/
 .footer {
-  background: url("../images/bg/footer-bg.jpg") no-repeat;
+  background: url("../images/bg-footer-bg.jpg") no-repeat;
   background-image: cover;
   padding-bottom: 35px;
 }

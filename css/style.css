@@ -1027,17 +1027,23 @@ Pricing
   background: #ff4747;
 }
 
+.package .deadline {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #6c757d;
+}
+
 .style-1 .pname {
   border-color: #4125dd;
 }
 
 .style-2 .pname {
-  border-color: #ff4747;
+  border-color: #ff007a;
 }
 
 .style-2 .btn {
-  border-color: #ff4747;
-  background: #ff4747;
+  border-color: #ff007a;
+  background: #ff007a;
   color: #ffffff;
 }
 

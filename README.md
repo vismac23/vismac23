@@ -1,12 +1,12 @@
-<div style="text-align:center">
-  <img src ="docs/brand.png" />
-</div>
-<div style="text-align:center">
-  <p style="font-size:22px">The international Summer School in <strong style="color:#4125dd">Machine Vision</strong></p>
-</div>
-<div style="text-align:center">
-  <p style="margin-top:0px">Padova, Italy - September 4-8, 2023</p>
-</div>
+<p align="center">
+  <img alt="brand" src="docs/brand.png">
+</p>
+<p align="center" style="font-size:22px">
+  The international Summer School in <strong style="color:#4125dd">Machine Vision</strong>
+</p>
+<p align="center" style="margin-top:0px">
+  Padova, Italy - September 4-8, 2023
+</p>
 
 ![Padova](docs/padova.jpg)
 

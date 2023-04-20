@@ -1,12 +1,16 @@
 <div style="text-align:center">
   <img src ="docs/brand.png" />
-  <p style="font-size: 22px">The international Summer School in <b>Machine Vision</b></p>
-  <p>Padova, Italy - September 4-8, 2023</p>
+</div>
+<div style="text-align:center">
+  <p style="font-size:22px">The international Summer School in <strong style="color:#4125dd">Machine Vision</strong></p>
+</div>
+<div style="text-align:center">
+  <p style="margin-top:0px">Padova, Italy - September 4-8, 2023</p>
 </div>
 
 ![Padova](docs/padova.jpg)
 
-## [Visit the website](https://lparolari.github.io/vismac23/)
+## [Visit the website](https://vismac23.github.io)
 
 ## Introduction
 

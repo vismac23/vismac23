@@ -34,6 +34,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
+              <!-- 
               <li class="nav-item">
                 <a class="nav-link" href="#speakers">Speakers</a>
               </li>
@@ -42,6 +43,21 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#schedule">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#call">Poster submission</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#about" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  School 🞃
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <a class="dropdown-item" href="#speakers">Speakers</a>
+                  <a class="dropdown-item" href="#organizers">Organizers</a>
+                  <a class="dropdown-item" href="#pricing">Registration</a>
+                  <a class="dropdown-item" href="#schedule">Schedule</a>
+                  <a class="dropdown-item" href="#call">Call for poster</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#venue">Venue</a>
@@ -380,23 +396,19 @@
     </section>
     <section class="section cta-wrap" id="organizers">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-7">
-            <div class="cta-content">
-              <span class="lead">Meet the organizers!</span>
-              <h2 class="mt-3 mb-4 text-md title">Organizers</h2>
-              <p>Feel free to contact us for any information.</p>
-              <a href="mailto:vismac23@math.unipd.it" class="btn btn-hero btn-rounded">contact us <i class="fas fa-envelope"></i></a>
+        <div class="row section-heading">
+          <div class="col-lg-6">
+            <div class="heading">
+              <span class="stroke-text">Organizers</span>
+              <div class="pl-90">
+                <h2>Meet the organizers</h2>
+                <p>Feel free to contact us for any information.</p>
+                <a href="mailto:vismac23@math.unipd.it" class="btn btn-hero btn-rounded">contact us <i class="fas fa-envelope"></i></a>
+              </div>
             </div>
           </div>
-          <!-- <div class="col-lg-5 mt-5 mt-lg-0 d-none d-lg-block">
-            <img src="images/banner-rev-slider-09.png" alt class="img-fluid">
-          </div> -->
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
+
         <div class="row">
           <div class="col-lg-4 col-sm-6">
             <div class="speaker-block mb-5">
@@ -473,6 +485,84 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-pricing" id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="heading mb-5">
+              <span class="stroke-text">Registration</span>
+              <div class="pl-90">
+                <h2 class="text-white mt-3">Get your ticket</h2>
+                <p class="text-white-50">Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="package style-2 bg-white mb-5 mb-lg-0">
+              <div class="price-header mb-4" style="background-image:url(images/bg-page-header.jpg)">
+                <i class="tf-ion-android-hangout"></i>
+                <h2 class="mt-4 text-white">€450</h2>
+              </div>
+              <h6 class="pname">Early</h6>
+              <p class="deadline">Deadline: <strong>May 31, 2023</strong></p>
+              <ul class="list-unstyled">
+                <li>Save 18%</li>
+                <li>All Days Ticket</li>
+                <li>Coffee Breaks</li>
+                <li>Lunch and Dinners</li>
+                <li>Certificate</li>
+              </ul>
+              <a href="https://apex.cca.unipd.it/pls/apex/f?p=308:2::::2:P_MERCHID,P_LANG:243,USA" class="btn btn-hero btn-rounded mt-3 mb-5">
+                Register now
+                <br />
+                <span class="text-lowercase" style="color: rgba(255,255,255,.7)">Save 18%</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="package style-1 bg-white mb-5 mb-lg-0">
+              <div class="price-header mb-4" style="background-image:url(images/bg-page-header.jpg)">
+                <i class="tf-ion-android-bulb"></i>
+                <h2 class="mt-4 text-white">€550</h2>
+              </div>
+              <h6 class="pname">Late</h6>
+              <p class="deadline">Deadline: <strong>June 30, 2023</strong></p>
+              <ul class="list-unstyled">
+                <li>All Days Ticket</li>
+                <li>Coffee Breaks</li>
+                <li>Lunch and Dinners</li>
+                <li>Certificate</li>
+              </ul>
+              <a href="https://apex.cca.unipd.it/pls/apex/f?p=308:2::::2:P_MERCHID,P_LANG:243,USA" class="btn btn-primary btn-rounded mt-3 mb-5 disabled">
+                Register now
+              </a>
+            </div>
+          </div>
+          <!-- <div class="col-lg-4 col-md-6">
+            <div class="package style-3 bg-white mb-5 mb-lg-0">
+              <div class="price-header mb-4" style="background-image:url(https://demo.gethugothemes.com/vixcon/site/images/bg/page-header.jpg)">
+                <i class="tf-ion-android-person"></i>
+                <h2 class="mt-4 text-white">300$</h2>
+              </div>
+              <h6 class="pname">Economic</h6>
+              <ul class="list-unstyled">
+                <li>Two Days Ticket</li>
+                <li>Coffee &amp; Launch</li>
+                <li>Networking</li>
+                <li>Certificate</li>
+                <li>Gift Box</li>
+                <li>Public ad listing</li>
+                <li>Dinner Serve</li>
+                <li>Email listing</li>
+              </ul>
+              <a href="#" class="btn btn-secondary btn-rounded mt-3 mb-5">Get now</a>
+            </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -804,81 +894,38 @@
         </div>
       </div>
     </section>
-    <section class="section section-pricing" id="pricing">
+    <section class="section sponsors" id="call">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="heading mb-5">
-              <span class="stroke-text">Registration</span>
+        <div class="row section-heading">
+          <div class="col-lg-8">
+            <div class="heading">
+              <span class="stroke-text">Call for poster</span>
               <div class="pl-90">
-                <h2 class="text-white mt-3">Get your ticket</h2>
-                <p class="text-white-50">Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio.</p>
+                <h2 class="text-white">Present your work</h2>
               </div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center align-items-center">
-          <div class="col-lg-4 col-md-6">
-            <div class="package style-2 bg-white mb-5 mb-lg-0">
-              <div class="price-header mb-4" style="background-image:url(images/bg-page-header.jpg)">
-                <i class="tf-ion-android-hangout"></i>
-                <h2 class="mt-4 text-white">€450</h2>
-              </div>
-              <h6 class="pname">Early</h6>
-              <p class="deadline">Deadline: <strong>May 31, 2023</strong></p>
-              <ul class="list-unstyled">
-                <li>Save 18%</li>
-                <li>All Days Ticket</li>
-                <li>Coffee Breaks</li>
-                <li>Lunch and Dinners</li>
-                <li>Certificate</li>
-              </ul>
-              <a href="https://apex.cca.unipd.it/pls/apex/f?p=308:2::::2:P_MERCHID,P_LANG:243,USA" class="btn btn-hero btn-rounded mt-3 mb-5">
-                Register now
-                <br />
-                <span class="text-lowercase" style="color: rgba(255,255,255,.7)">Save 18%</span>
-              </a>
-            </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <h4 class="mb-4 text-white letter-spacing text-sm">Deadline</h4>
+            <p class="text-white">July 31, 2023 at 11:59PM UTC-12:00 ("anywhere on Earth")</p>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="package style-1 bg-white mb-5 mb-lg-0">
-              <div class="price-header mb-4" style="background-image:url(images/bg-page-header.jpg)">
-                <i class="tf-ion-android-bulb"></i>
-                <h2 class="mt-4 text-white">€550</h2>
-              </div>
-              <h6 class="pname">Late</h6>
-              <p class="deadline">Deadline: <strong>June 30, 2023</strong></p>
-              <ul class="list-unstyled">
-                <li>All Days Ticket</li>
-                <li>Coffee Breaks</li>
-                <li>Lunch and Dinners</li>
-                <li>Certificate</li>
-              </ul>
-              <a href="https://apex.cca.unipd.it/pls/apex/f?p=308:2::::2:P_MERCHID,P_LANG:243,USA" class="btn btn-primary btn-rounded mt-3 mb-5 disabled">
-                Register now
-              </a>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 text-white">
+            <h4 class="mb-4 text-white mt-5 letter-spacing text-sm">Rules</h4>
+            <ul>
+              <li>RULE 1</li>
+              <li>RULE 2</li>
+            </ul>
           </div>
-          <!-- <div class="col-lg-4 col-md-6">
-            <div class="package style-3 bg-white mb-5 mb-lg-0">
-              <div class="price-header mb-4" style="background-image:url(https://demo.gethugothemes.com/vixcon/site/images/bg/page-header.jpg)">
-                <i class="tf-ion-android-person"></i>
-                <h2 class="mt-4 text-white">300$</h2>
-              </div>
-              <h6 class="pname">Economic</h6>
-              <ul class="list-unstyled">
-                <li>Two Days Ticket</li>
-                <li>Coffee &amp; Launch</li>
-                <li>Networking</li>
-                <li>Certificate</li>
-                <li>Gift Box</li>
-                <li>Public ad listing</li>
-                <li>Dinner Serve</li>
-                <li>Email listing</li>
-              </ul>
-              <a href="#" class="btn btn-secondary btn-rounded mt-3 mb-5">Get now</a>
-            </div>
-          </div> -->
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h5 class="text-white mt-5 mb-4 h3">Want to interact with the scientific community?</h5>
+            <a href="#" class="btn btn-hero btn-rounded">apply now</a>
+          </div>
         </div>
       </div>
     </section>
